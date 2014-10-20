@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <title>Github Language Evaluator</title>
+    <link rel="stylesheet" href='/css/style.css'>
+</head>
+<body>
+  <div id="wrapper">
+
+    <div id="header">Github user language evaluator</div>
+
+    <form action="/" method="post">
+      <div>
+        <input id="github_icon" type="image" src="images/github_icon_5.png" alt="github"></br>
+          <label>Enter github user name and press the icon above</label>
+          <input type="text" name="github_user" autofocus>
+      </div>
+    </form>
+  </div>
+
+    <div id="language">
+       <%= @return_string %>
+    </div> 
+</body>
+</html>
