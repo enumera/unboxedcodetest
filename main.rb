@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'sinatra'
-require 'sinatra/contrib/all' if development?
 require 'octokit'
 
 
