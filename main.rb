@@ -39,7 +39,7 @@ post '/' do
     #find the most popular language of the user if a github user exists then
     #a message will be raised to the user that this user has not started coding
     #yet.
-    binding.pry
+   
     if  @languages.length == 0
      
         @return_string = "#{@github_user}s has not created any repos !!"
