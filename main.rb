@@ -3,14 +3,8 @@ require 'octokit'
 
 client = Octokit::Client.new \
  
-CLIENT_ID = ENV['GITHUB_AUTH_CLIENT_ID2']
-CLIENT_SECRET = ENV['GITHUB_AUTH_CLIENT_SECRET2']
-
-
-
 get '/' do
 
-  "Hello World"
   erb :home
 
 end
