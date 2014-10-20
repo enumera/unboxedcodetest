@@ -1,2 +1,2 @@
-require './home'
+require './main'
 run Sinatra::Application
