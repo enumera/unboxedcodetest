@@ -2,9 +2,7 @@ require 'sinatra'
 require 'octokit'
 
 client = Octokit::Client.new \
-  # :client_id     => "74ad22b135a79fa14633",
-  # :client_secret => "930d01c4d63b15fa5c1c8951d4d6a85ecc5304e7"
-
+ 
 CLIENT_ID = ENV['GITHUB_AUTH_CLIENT_ID2']
 CLIENT_SECRET = ENV['GITHUB_AUTH_CLIENT_SECRET2']
 
