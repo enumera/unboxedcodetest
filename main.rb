@@ -48,26 +48,6 @@ post '/' do
 
         @popular_language = find_popular_language(@language_set, @languages)
 
-      # @popular_language = ""
-      # count = 0
-
-
-
-      # language_set.each do |language|
-
-      #   if @popular_language == ""
-      #     @popular_language = language
-      #     count = languages.count(language)
-      #   else
-      #     binding.pry
-      #     if languages.count(language) > count
-      #       @popular_language = language
-      #     end
-      #   end
-      # end
-
-      # puts @popular_language
-
       @return_string = "#{@github_user.capitalize}s most popular language is #{@popular_language}."
 
     end
